@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "task2"
+version = "0.1.0"
+description = ""
+authors = ["canaldkz <canald000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.2"
+faker = "^19.6.1"
+httpx = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
